@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rufina:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ovo&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: poppins, sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  .landing-page{
+    background: url("Background.png"); /*Remove initial top right instruction*/
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 100vh;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5vh;
+}
+ 
+.container p{
+    line-height: 1em;
+    color: white;
+}
+
+#club-name{
+    font-family: "Instrument Sans", sans-serif;
+    font-size: 140px;
+    font-weight: 700;
+}
+
+#college-name{
+    font-size: 75px;
+    font-family: "Ovo", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#landing-page-name{
+    font-family: poppins, sans-serif;
+    color: orange;
+    font-weight: 800;
+    
+}
+
+#btn {
+    text-decoration: none;
+    padding: 8px 30px;
+    border-radius: 40px;
+    background: white;
+    color: black;
+    font-size: 1.5em;
+    z-index: 9;
+    transform: translateY(80px);
+  }
+
+#btn:active , #btn:hover {
+    background: black;
+    opacity: 0.3;
+    color: white;
+}
